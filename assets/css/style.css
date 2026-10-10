@@ -450,10 +450,6 @@ footer p {
         gap: 10px;
     }
 
-    .project-card{
-        height: 200px
-    }
-
     .skills-table {
         grid-template-columns: 1fr;
         padding: 20px;
