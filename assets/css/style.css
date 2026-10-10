@@ -473,7 +473,11 @@ footer p {
     }
 
     .projects-grid {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .project-card{
+        height: 200px
     }
 
     .skills-table {
