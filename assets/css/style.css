@@ -457,3 +457,34 @@ footer p {
         padding-bottom: 30px;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 430px) and (orientation: portrait) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    #projects .container {
+        padding: 0 5px; 
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skills-table {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .skill-column:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+        padding-bottom: 30px;
+    }
+}
