@@ -445,6 +445,11 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
 
+     .project-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .skills-table {
         grid-template-columns: 1fr;
         padding: 20px;
